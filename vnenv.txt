@@ -1,0 +1,2 @@
+virtualenv app_python
+source app_python/bin/activate
