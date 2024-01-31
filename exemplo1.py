@@ -29,7 +29,7 @@ app = FastAPI()
 @app.get("/")
 def get_pessoa():
     
-    return {"message": "Bem vindo(a)"}
+    return {"message": "Bem vindo"}
 
 @app.get("/pessoa")
 def get_pessoa():
