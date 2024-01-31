@@ -38,3 +38,11 @@ def get_pessoa():
         result = session.execute(query).scalars().all()
 
     return result
+
+@app.get("/pessoa-nome")
+def get_pessoa():
+    query = select(Pessoa.nome)
+    with Session(engine) as session:
+        result = session.execute(query).scalars().all()
+
+    return result
