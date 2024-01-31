@@ -3,3 +3,5 @@ sqlmodel
 uvicorn[standard]
 httpie
 strawberry-graphql
+typer
+libcst
